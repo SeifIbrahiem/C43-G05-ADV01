@@ -38,9 +38,38 @@ namespace C43_G05_ADV01
         //    x = y;
         //    y = Temp;
         //} 
-        #endregion 
+        #endregion
+
+        #region linear search non generic
+        //public static int LinearSearch(int[] arr, int value)
+        //{
+        //    if (arr?.Length > 0)
+        //    {
+        //        for (int i = 0; i < arr.Length; i++)
+        //        {
+        //            if (arr[i] == value)
+        //                return i;
+        //        }
+        //    }
+        //    return -1;
+        //} 
+        #endregion
 
 
+        #region linear search generic
+        //public static int LinearSearch<T>(T[] arr, T value)
+        //{
+        //    if (arr?.Length > 0)
+        //    {
+        //       for (int i = 0; i < arr.Length; i++)
+        //        {
+        //            if (arr[i].Equals (value))
+        //                return i;
+        //        }
+        //    }
+        //    return -1;
+        //}  
+        #endregion
 
     }
 }

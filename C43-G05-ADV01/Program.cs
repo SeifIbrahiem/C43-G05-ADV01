@@ -65,6 +65,26 @@
             //Console.WriteLine($"K: {K}"); 
             #endregion
 
+            #region linear search
+            //int[] Numberes = { 9, 7, 8, 5, 1, 2, 2, 5, 15, 14, 78, 10 };
+
+            //int index = Helper.LinearSearch(Numberes, 5);
+
+            //Console.WriteLine($"Index: {index}"); 
+            #endregion
+
+            #region employee
+            //Employee Eo1 = new Employee { Id = 1, Name = "seif", age = 22, salary = 3000 };
+            //Employee Eo2 = new Employee { Id = 2, Name = "sama", age = 25, salary = 30000 };
+            //Employee Eo3 = new Employee { Id = 3, Name = "soha", age = 28, salary = 300000 };
+            //Employee Eo4 = new Employee { Id = 4, Name = "sami", age = 24, salary = 4000 };
+            //Console.WriteLine();
+            //Employee[] employees = { Eo1, Eo2, Eo3, Eo4 };
+            //int index = Helper.LinearSearch(employees, Eo1);
+            //Console.WriteLine($"index: {index} "); 
+            #endregion
+
+
         }
     }
 }
