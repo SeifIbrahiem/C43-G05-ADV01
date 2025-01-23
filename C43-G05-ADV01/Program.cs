@@ -84,7 +84,10 @@
             //Console.WriteLine($"index: {index} "); 
             #endregion
 
-
+            //notes 
+            //class< has equal function which inhirted from object class -> compare references 
+            //struct< has equal function which inhirted from object class ->  compare data 
+            // struct donot have implementation from == operator 
         }
     }
 }
