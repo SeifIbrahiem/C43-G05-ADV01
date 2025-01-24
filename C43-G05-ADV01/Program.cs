@@ -84,10 +84,24 @@
             //Console.WriteLine($"index: {index} "); 
             #endregion
 
+            #region notes
             //notes 
             //class< has equal function which inhirted from object class -> compare references 
             //struct< has equal function which inhirted from object class ->  compare data 
-            // struct donot have implementation from == operator 
-        }
+            // struct donot have implementation from == operator  
+            #endregion
+
+            #region SORT
+            //int[] Numbers = { 4, 3, 2, 1 };
+            //Helper.PrintArray(Numbers);
+
+            //Console.WriteLine();
+
+            //Helper.Bubblesort(Numbers);
+            //Helper.PrintArray(Numbers); 
+            #endregion
+
+           
+       }
     }
 }

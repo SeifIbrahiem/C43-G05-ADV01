@@ -31,7 +31,7 @@ namespace C43_G05_ADV01
         #endregion
 
         #region generic swap
-        //// generic swap 
+        //generic swap 
 
         //public static void Swap <T> (ref T x, ref T y)
         //{ T Temp = x;
@@ -55,7 +55,6 @@ namespace C43_G05_ADV01
         //} 
         #endregion
 
-
         #region linear search generic
         //public static int LinearSearch<T>(T[] arr, T value)
         //{
@@ -70,6 +69,39 @@ namespace C43_G05_ADV01
         //    return -1;
         //}  
         #endregion
+
+        #region SORTING NUMBER
+        //public static void Bubblesort(int[] Arr)
+        //{
+        //    if (Arr?.Length > 0)
+        //    {
+        //        for (int i = 0; i < Arr.Length; i++)
+        //        {
+        //            for (int j = 0; j < Arr.Length - 1; j++)
+        //            {
+        //                if (Arr[j] > Arr[j + 1]) ;
+        //                Swap(ref Arr[j], ref Arr[j + 1]);
+        //            }
+
+        //        }
+        //    }
+        //}
+        //public static void Swap<T>(ref T x, ref T y)
+        //{
+        //    T Temp = x;
+        //    x = y;
+        //    y = Temp;
+        //}
+        //public static void PrintArray<T>(T[] arr)
+        //{
+        //    foreach (T item in arr)
+        //    {
+        //        Console.Write($"{item} ");
+        //    }
+        //    Console.WriteLine();
+        //} 
+        #endregion
+
 
     }
 }
